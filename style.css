@@ -1,0 +1,284 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    height: 100vh;
+    background-image: url(./images/drew-coffman-1872.jpg);
+    background-size: 100% 100%;
+    text-align: center;
+
+}
+
+.header .content-header p,
+.header .content-header h2 {
+    color: #fff;
+}
+
+button {
+    cursor: pointer;
+}
+
+.header .content-header {
+    padding-top: 230px;
+
+}
+
+.header .content-header p {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 17px;
+   
+}
+
+.header .content-header h2 {
+    font-size: 76px;
+}
+
+.header .content-header .btn {
+    padding: 18px;
+    border: none;
+    border-radius: 6px;
+    font-weight: 500;
+    color: white;
+margin-top: 10px;
+
+}
+
+.header .content-header .btn1 {
+    background-color: #8E7754;
+}
+
+.header .content-header .btn2 {
+    background-color: transparent;
+    border: 2px solid #fff;
+}
+
+.header .content-header .btn2:hover {
+    background-color: white;
+    color: black;
+
+}
+.nav{
+    
+    width: 80%;
+    margin: auto;
+}
+
+.header .nav .img{
+    
+    float: left;
+    margin-top: 10px;
+    cursor: pointer;
+  
+}
+.header .nav .img img{
+    
+    width: 150px;
+  
+}
+.header .nav ul{
+ 
+    float: right;
+    margin-top: 15px;
+}
+.header .nav ul li{
+ 
+    list-style: none;
+    display:  inline-block;
+}
+.header .nav ul li a{
+ 
+   text-decoration: none;
+   color: white;
+   margin-right: 20px;
+   font-size: 20px;
+  
+}
+
+
+.clear-fix{
+    clear: both;
+}
+/* end header */
+.section2{
+    margin-bottom: 60px;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+    margin-top: 100px;
+   
+}
+.container img{
+   max-width: 100%;
+    
+}
+
+.item{
+    float: left;
+    width: 40%;
+    margin-right: 50px;
+}
+
+.clear-fix{
+    clear: both;
+}
+.section2 .context h2{
+font-size: 32px;
+margin-bottom: 20px;
+
+}
+.section2 .context p{
+font-size: 15px;
+color: #b6937c;
+line-height: 1.4;
+margin-bottom: 30px;
+
+}
+.section2 .context .icon{
+    margin-bottom: 10px;
+}
+.section2 .context .icon i,.section5 .icon i{
+    margin-right: 5px;
+    font-size: 24px;
+    border: 1px solid burlywood;
+    border-radius: 50%;
+    padding: 5px;
+    color: #8E7754;
+}
+.section2 .context .icon span{
+    font-size: 20px;
+    color: #b6937c;
+}
+.section3{
+   background-color: #f8f8f8;
+   margin-bottom: 100px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.section3 h2{
+margin-bottom: 10px;
+}
+.section3 p{
+color: #8E7754;
+margin-bottom: 15px;
+line-height: 2;
+}
+.basic{
+    text-align: center;
+}
+.basic h2
+{
+    margin-bottom: 10px;
+}
+.basic p{
+    color: #8E7754;
+    margin-bottom: 50px;
+}
+.par
+{
+    
+    width: 90%;
+    margin: auto;
+}
+.band img{
+    max-width: 100%;
+}
+.band{
+    width: 25%;
+    float: left;
+    margin-left: 5%;
+    text-align: center;
+}
+.band h3{
+margin-top: 20px;
+margin-bottom: 20px;
+}
+.band p{
+line-height: 1.8;
+color: #8E7754;
+}
+.section5{
+    margin-top: 100px;
+    background-color:#f8f8f8;
+    padding: 20px;
+}
+ .section5 .text{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    
+ }
+ .section5 .text h3{
+    font-size: 30px;
+ }
+ .section5 .text p{
+    line-height: 2;
+    margin-bottom: 10px;
+    color: #8E7754;
+ }
+ .section5 .icon{
+    margin-bottom: 20px;
+ }
+ .section5 .map{
+    width: 40%;
+    float: right;
+    margin-left: 5%;
+    text-align: center;
+
+    
+ }
+ .section5 .icon i{
+    background-color: #8E7754;
+    color: #fff;
+ }
+ .section6{
+    background-color: #403d38;
+ }
+ .items{
+    width: 20%;
+    float: left;
+    margin-left: 5%;
+ }
+ .items h3{
+    color: #e0ffff;
+    margin-top: 20px;
+    margin-bottom: 20px;
+ }
+ .items p{
+    margin-bottom: 20px;
+    line-height: 2;
+    font-size: 16px;
+ }
+ .section6 .icon:not(:last-child){
+    margin-bottom: 20px;
+    border-bottom: 1px solid #96969627;
+ }
+ .section6 .icon span,.items p,.section6 .icon i{
+    color: #969696;
+
+ }
+ .section6 .icon span{
+    font-size: 15px;
+ }
+ .footer{
+    background-color: #353330;
+    text-align: center;
+    padding: 100px;
+ }
+ .footer p{
+    color: #969696;
+    font-size: 15px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+ }
+ .footer .lists i {
+    background-color: #403d38;
+    border-radius: 50%;
+    padding: 10px;
+    color: #888a86;
+    text-align: center;
+}
